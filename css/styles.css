@@ -1,0 +1,300 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  transition: 0.5s;
+}
+
+/* Sidebar */
+
+#sidebar {
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  background-color: #ff8db4;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#sidebar h1 {
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+span {
+  color: #eb3968;
+  font-weight: 700;
+}
+
+#sidebar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#sidebar a:hover {
+  color: #de4770;
+  font-weight: bold;
+}
+
+#sidebar li {
+  padding: 20px;
+}
+
+.sidebar-container {
+  position: relative;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.logo {
+  width: 180px;
+  height: 180px;
+  align-items: center;
+}
+
+/* Conteudo */
+
+.content {
+  position: absolute;
+  left: 300px;
+  width: calc(100% - 300px);
+}
+
+.content h2 {
+  color: #de4770;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.content h3 {
+  color: #de4770;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+section {
+  padding-left: 50px;
+}
+
+/* Bem Vindo */
+
+#sessao-bemvindo {
+  padding-left: 0;
+}
+
+.bemvindo-content {
+  padding-left: 50px;
+}
+
+#sessao-bemvindo .banner {
+  height: 500px;
+  background: url("../img/banner2.jpg") center/cover;
+}
+
+#sessao-bemvindo h2 {
+  margin-top: 50px;
+}
+
+#sessao-bemvindo::after,
+#sessao-sobre::after {
+  content: "";
+  display: block;
+  clear: both;
+  margin-bottom: 100px;
+}
+
+.sessao-minibanner {
+  width: 300px;
+  height: 400px;
+  background: url("../img/banner3.jpg") center/cover;
+  float: left;
+}
+
+.sessao-descricao {
+  position: absolute;
+  left: 370px;
+  padding-right: 30px;
+}
+
+.sessao-descricao p {
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-left: 25px;
+}
+
+.sessao-descricao .btn,
+form input[type="submit"] {
+  background-color: #ff8db4;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-left: 25px;
+  transition: 0.5s;
+  display: block;
+  width: 100px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sessao-descricao .btn:hover,
+form input[type="submit"]:hover {
+  background-color: #eb3968;
+}
+
+/* Sessao Sobre */
+
+#sessao-sobre .sessao-minibanner {
+  float: right;
+  margin-right: 50px;
+  background-image: url("../img/banner4.jpg");
+}
+
+#sessao-sobre .sessao-descricao {
+  position: absolute;
+  left: 25px;
+  width: calc(100% - 400px);
+}
+
+/* Galerias */
+
+.banner-galeria {
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  height: 200px;
+}
+
+#sessao-doces1,
+#sessao-doces2,
+#sessao-doces3 {
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+
+.doces1-imgs {
+  width: 18.8%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+#img1 {
+  background-image: url("../img/galeria1.jpg");
+  margin-left: 0;
+}
+
+#img2 {
+  background-image: url("../img/galeria2.jpg");
+}
+
+#img3 {
+  background-image: url("../img/galeria3.jpg");
+}
+
+#img4 {
+  background-image: url("../img/galeria4.jpg");
+}
+
+#img5 {
+  background-image: url("../img/galeria5.jpg");
+  margin-right: 0;
+}
+
+.doces2-imgs {
+  width: 32.3%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+#img6 {
+  background-image: url("../img/galeria6.jpg");
+  margin-left: 0;
+}
+
+#img7 {
+  background-image: url("../img/galeria7.jpg");
+}
+
+#img8 {
+  background-image: url("../img/galeria8.jpg");
+  margin-right: 0;
+}
+
+.doces3-imgs {
+  width: 23.9%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+#img9 {
+  background-image: url("../img/galeria9.jpg");
+  margin-left: 0;
+}
+
+#img10 {
+  background-image: url("../img/galeria10.jpg");
+}
+
+#img11 {
+  background-image: url("../img/galeria11.jpg");
+}
+
+#img12 {
+  background-image: url("../img/galeria12.jpg");
+  margin-right: 0;
+}
+
+/* Contato */
+
+#form-contato {
+  width: 500px;
+}
+
+#form-contato input[type="text"],
+#form-contato input[type="email"],
+#form-contato textarea {
+  display: block;
+  border: 1px solid #eb3968;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Open sans", sans-serif;
+}
+
+#form-contato input[type="text"]:focus,
+#form-contato input[type="email"]:focus,
+#form-contato textarea:focus {
+  border-color: #ff8db4;
+}
+
+#form-contato ::placeholder {
+	color: #eb3968;
+}
+
+#form-contato input[type=submit] {
+	margin-left: 0;
+	font-size: 16px;
+	width: 180px;
+}
+
+/* Footer */
+
+footer {
+	height: 100px;
+	padding-top: 150px;
+	color: #eb3968;
+}
+
+footer p {
+	text-align: center;
+	font-weight: bold;
+}
