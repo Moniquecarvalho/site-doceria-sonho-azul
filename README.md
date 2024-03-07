@@ -4,7 +4,7 @@
 
   <p align="center">
 Desenvolvi um site de doceria em HTML e CSS, onde cada elemento foi projetado para transmitir a essência das delícias oferecidas. A galeria de imagens, menu de navegação intuitivo e formulário de contato garantem uma experiência incrivel para os meus conhecimentos.    <br />
-    <a href="https://moniquecarvalho.github.io/formulario-com-validacao/"><strong>Visualizar o projeto »</strong></a>
+    <a href="https://moniquecarvalho.github.io/site-doceria-sonho-azul/"><strong>Visualizar o projeto »</strong></a>
     <br />
     <br />
   </p>
